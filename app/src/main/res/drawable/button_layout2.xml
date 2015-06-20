@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:name="button_start_down_state" android:state_pressed="true" android:drawable="@drawable/menu_button_down_bg">
+    </item>
+    <item android:name="button_start_up_state" android:drawable="@drawable/menu_button_up_bg">
+    </item>
+</selector>

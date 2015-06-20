@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout">
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/armGut2"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/beineGut"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/koerperGut"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/kopfGut"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/armGut"/>
+
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/armBoese2"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/beineBoese"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/koerperBoese"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/kopfBoese"/>
+
+    <ImageView
+        style="@style/imageStyle"
+        android:id="@+id/armBoese"/>
+
+
+</RelativeLayout>

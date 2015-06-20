@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tentakel-Boxing</string>
+    <string name="action_settings">Settings</string>
+    <string name="mini_game_button">Mini-Games</string>
+    <string name="start_button">Campaign</string>
+    <string name="quickstart_button">Quick game/survival</string>
+    <string name="highscore_button">Highscores</string>
+    <string name="skin_button">Skins</string>
+</resources>
