@@ -12,6 +12,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.graphics.drawable.BitmapDrawable;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.text.Layout;
 import android.util.DisplayMetrics;
@@ -52,6 +53,8 @@ public class MainActivity extends Activity implements
     private ImageView beineBoese;
     private int WindowWidth;
     private int WindowHeight;
+    //sound implementaion
+    private SoundPool.Builder spBuilder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +101,7 @@ public class MainActivity extends Activity implements
 
         mModel = new GameModel(WindowWidth, WindowHeight, player, enemy, this);
 
+        //added
     }
 
     @Override
@@ -164,11 +168,15 @@ public class MainActivity extends Activity implements
         return super.dispatchTouchEvent(event);
     }
 
-
-
     private int getPixels(int dipValue){
         Resources r = getResources();
         int px = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dipValue, r.getDisplayMetrics());
         return dipValue;
+    }
+
+    //added
+    @Override
+    protected void onPause() {
+        super.onPause();
     }
 }
